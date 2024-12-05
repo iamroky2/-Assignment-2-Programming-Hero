@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+.manrope-font{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+};
+.montagu-slab-font {
+  font-family: "Montagu Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+};
+  </style>
+  <title>Assignment 2</title>
+</head>
+<body class="manrope-font bg-[#000000] text-white">
+<main>
+  <section>
+<!--Header Start-->
+    <header class="p-10">
+      <nav>
+        <div class="flex justify-around items-center">
+          <h1 class="font-extrabold text-[32px]">
+            <a href="#">
+              LOGO
+            </a>  
+          </h1>
+          <ul class="flex font-normal text-[16px] gap-7">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+          <button 
+          class="font-medium text-[16px] text-black bg-[#E6AA32] py-3 px-5 rounded-full">
+          <a href="#"></a>
+          Downlaod CV
+        </button>
+        </div>
+      </nav>
+    </header>
+<!--Header End-->
+  </section>
+<!--Hero Section Start-->
+  <section class="grid lg:flex justify-around items-center pl-20 mt-32">
+<!--Left Side-->
+    <div>
+      <h5 class="font-normal text-[18px] text-[#797C86]">
+        Web Developer
+      </h5>
+      <h1 class="montagu-slab-font font-bold text-[40px] uppercase">
+        HI! This is <br><span class="text-[#E6AA32]">Golam Rahoman Roky</span>
+      </h1>
+      <p class="font-normal text-[18px] text-[#797C86]">
+        As a web designer with four years of experience, I specialize in<br>creating visually appealing and user-friendly websites. My<br>expertise includes responsive design, UI/UX principles, and<br>collaborating with clients to bring their visions to life.
+      </p>
+      <div class="flex mt-3 space-x-3">
+        <button 
+        class="font-medium text-[16px] bg-[#E6AA32] py-[18px] px-[20px] rounded-full text-black">
+        <a href="#"></a>
+        Let’s Connect
+      </button>
+        <button class="font-normal text-[16px] text-[#E6E6E6]">
+          <a href="#"></a>
+          View Portfolios 
+        </button>
+        <img src="./images/Arrow.png" alt="">
+        </div>
+      </div>
+    </div>
+<!--Right Side-->
+    <div>
+      <div class="relative bg-[#070708] w-[700px] h-[343px] rounded-tl-[100px]">
+        <img class="absolute bottom-0" src="./images/hero_section.png" alt="">
+      </div>
+    </div>
+  </section>
+<!--Hero Section End-->
+<!--Specialties Section Start-->
+  <section>
+    <div class="text-center mt-20">
+      <h2 class="font-semibold text-[20px] uppercase text-[#797C86]">
+        Specialties
+      </h2>
+      <h1 class="font-bold text-[48px] uppercase">
+        My specialities
+      </h1>
+      <p class="font-normal text-[18px] text-[#797C86]">
+        As a web designer with four years of experience, I specialize in creating visually appealing<br>and user-friendly websites. My expertise includes responsive design.
+      </p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-between my-10 ml-8">
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-4 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/1.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            Front-End Development
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/2.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            Back-End Development
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/3.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            Full-Stack Development
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/4.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            Web Application Security
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/5.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            E-commerce Development
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/6.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            Cloud-Based Development
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/7.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            Progressive Web Apps
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+      <div class="w-[283px] bg-[#0E0E10] grid justify-center p-5 space-y-3">
+        <div class="flex justify-center items-center">
+          <img src="images/8.png" alt="">
+        </div> 
+        <div class="container grid justify-center items-start text-center 
+        text-[#E6E6E6] space-y-3">
+          <h2 class="font-bold text-[18px]">
+            AI-Powered Development
+          </h2>
+          <p class="font-normal text-[14px]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div> 
+      </div>
+    </div>
+  </section>
+<!--Specialties Section End-->
+<!--recent works Start-->
+  <section class="space-y-20 mb-20">
+    <div class="text-center space-y-1">
+      <h2 class="font-semibold text-[20px] text-[#797C86] uppercase">
+        recent works
+      </h2>
+      <h1 class="font-bold text-[48px] uppercase">
+        My Recent works
+      </h1>
+      <p class="font-normal text-[18px] text-[#797C86]">
+        As a web designer with four years of experience, I specialize in creating <br>visually appealing and user-friendly websites. My expertise includes<br> responsive design.
+      </p>
+    </div>
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around gap-y-10 gap-x-10 ml-14">
+      <div class="w-[358px] h-[268px] bg-[#262626]"></div>
+      <div class="w-[358px] h-[268px] bg-[#262626]"></div>
+      <div class="w-[358px] h-[268px] bg-[#262626]"></div>
+      <div class="w-[358px] h-[268px] bg-[#262626]"></div>
+      <div class="w-[358px] h-[268px] bg-[#262626]"></div>
+      <div class="w-[358px] h-[268px] bg-[#262626]"></div>
+    </div>
+  </section>
+<!--recent works End-->
+<!--Service Section Start-->
+  <section>
+      <div class="text-center space-y-1">
+        <h2 class="font-semibold text-[20px] uppercase text-[#797C86]">
+          Services
+        </h2>
+        <h1 class="font-bold text-[48px] uppercase">
+          My other services
+        </h1>
+        <p class="font-normal text-[18px] text-[#797C86]">
+          As a web designer with four years of experience, I specialize in creating visually appealing <br> and user-friendly websites. My expertise includes responsive design.
+        </p>
+      </div>
+      <div class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 justify-evenly my-10 ml-8">
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            Website Development
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            E-Commerce Development
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            Web App Development
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            API Dev. & Integration
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            Cloud-Based Solutions
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            Web Perform. Optimization
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px] bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            (SEO) Services
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+        <div class="container w-[283px]  bg-[#070708] p-5 space-y-5 grid justify-center text-center items-center rounded-lg">
+          <h2 class="font-bold text-[18px]">
+            Website Maint. & Support
+          </h2>
+          <p class="font-normal text-[14px] text-[#E6E6E6]">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+          </p>
+        </div>
+      </div>
+  </section>
+<!--Service Section End-->
+<!--FAQ Section Start-->
+  <section>
+    <div class="ml-8 mb-10 ">
+      <h2 class="font-semibold text-[20px text-[#797C86]">
+        FAQ’s
+      </h2>
+      <h1 class="font-semibold text-[48px]">
+        Frequently Asked Questions
+      </h1>
+    </div>
+    <div>
+      <hr class="solid ml-8 mr-[130px]">
+      <div class="flex justify-around items-center py-[30px] px-[50px]">
+        <div>
+          <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">
+            What areas of web development do you focus on?
+          </h2>
+          <p class="font-normal text-[18px] text-[#797C86]">
+            I specialize in web development, creating websites that deliver unique user experiences.
+          </p>
+        </div>
+        <div class="pl-10">
+          <img class="outline outline-1 outline-white outline-offset-[10px] rounded-full" src="./images/Icon.png" alt="">
+        </div>
+      </div>
+      <hr class="solid ml-8 mr-[130px]">
+      <div class="flex justify-around items-center py-[30px] px-[50px]">
+        <div>
+          <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">
+            How can I schedule a web development consultation with you?
+          </h2>
+          <p class="font-normal text-[18px] text-[#797C86]">
+            I specialize in web development, creating websites that deliver unique user experiences.
+          </p>
+        </div>
+        <div class="pl-10">
+          <img class="outline outline-1 outline-white outline-offset-[10px] rounded-full" src="./images/Icon.png" alt="">
+        </div>
+      </div>
+      <hr class="solid ml-8 mr-[130px]">
+      <div class="flex justify-around items-center py-[30px] px-[50px]">
+        <div>
+          <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">
+            Can I choose a specific platform for my website?
+          </h2>
+          <p class="font-normal text-[18px] text-[#797C86]">
+            I specialize in web development, creating websites that deliver unique user experiences.
+          </p>
+        </div>
+        <div class="pl-10">
+          <img class="outline outline-1 outline-white outline-offset-[10px] rounded-full" src="./images/Icon.png" alt="">
+        </div>
+      </div>
+      <hr class="solid ml-8 mr-[130px]">
+      <div class="flex justify-around items-center py-[30px] px-[50px]">
+        <div>
+          <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">
+            What tools and technologies do you use for web development?
+          </h2>
+          <p class="font-normal text-[18px] text-[#797C86]">
+            I specialize in web development, creating websites that deliver unique user experiences.
+          </p>
+        </div>
+        <div class="pl-10">
+          <img class="outline outline-1 outline-white outline-offset-[10px] rounded-full" src="./images/Icon.png" alt="">
+        </div>
+      </div>
+      <hr class="solid ml-8 mr-[130px]">
+      <div class="flex justify-around items-center py-[30px] px-[50px]">
+        <div>
+          <h2 class="font-semibold text-[20px] text-[#AFB0B6] uppercase">
+            Can I choose a specific platform for my website?
+          </h2>
+          <p class="font-normal text-[18px] text-[#797C86]">
+            I specialize in web development, creating websites that deliver unique user experiences.
+          </p>
+        </div>
+        <div class="pl-10">
+          <img class="outline outline-1 outline-white outline-offset-[10px] rounded-full" src="./images/Icon.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--FAQ Section End-->
+<!--Footer Start-->
+  <footer>
+    <div><hr class="solid"></div>
+    <div class="grid grid-cols-1 ml-10 justify-around  md:grid-cols-2 lg:flex  mt-10">
+      <div class="space-y-5">
+        <h2 class="font-semibold text[18px] text-[#797C86]">
+          Solutions
+        </h2>
+        <ul class="font-medium text-[18px] text-[#F2F2F3]">
+          <li><a href="#">Glintopia</a></li>
+          <li><a href="#">Fluxway</a></li>
+          <li><a href="#">Fable’s</a></li>
+          <li><a href="#">PowerCore</a></li>
+        </ul>
+      </div>
+      <div class="space-y-5">
+        <h2 class="font-semibold text[18px] text-[#797C86]">
+          Solutions
+        </h2>
+        <ul class="font-medium text-[18px] text-[#F2F2F3]">
+          <li><a href="#">Glintopia</a></li>
+          <li><a href="#">Fluxway</a></li>
+          <li><a href="#">Fable’s</a></li>
+          <li><a href="#">PowerCore</a></li>
+        </ul>
+      </div>
+      <div class="space-y-5">
+        <h2 class="font-semibold text[18px] text-[#797C86]">
+          Solutions
+        </h2>
+        <ul class="font-medium text-[18px] text-[#F2F2F3]">
+          <li><a href="#">Glintopia</a></li>
+          <li><a href="#">Fluxway</a></li>
+          <li><a href="#">Fable’s</a></li>
+          <li><a href="#">PowerCore</a></li>
+        </ul>
+      </div>
+      <div class="space-y-5">
+        <h2 class="font-semibold text[18px] text-[#797C86]">
+          Solutions
+        </h2>
+        <ul class="font-medium text-[18px] text-[#F2F2F3]">
+          <li><a href="#">Glintopia</a></li>
+          <li><a href="#">Fluxway</a></li>
+          <li><a href="#">Fable’s</a></li>
+          <li><a href="#">PowerCore</a></li>
+        </ul>
+      </div>
+      <div class="space-y-5">
+        <h2 class="font-semibold text[18px] text-[#797C86]">
+          Solutions
+        </h2>
+        <ul class="font-medium text-[18px] text-[#F2F2F3]">
+          <li><a href="#">Glintopia</a></li>
+          <li><a href="#">Fluxway</a></li>
+          <li><a href="#">Fable’s</a></li>
+          <li><a href="#">PowerCore</a></li>
+        </ul>
+      </div>
+    </div>
+    <div><hr class="solid my-10"></div>
+    <div class="grid grid-cols-1 md:flex justify-around font-normal text-[18px] text-[#797C86] mb-8">
+      <div class="flex gap-5">
+        <h6>
+          Terms & Conditions
+        </h6>
+        <h6>
+          Privacy Policy
+        </h6>
+      </div>
+      <div>
+        <p>
+          © 2024 All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+<!--Footer End-->
+</main>
+</body>
+</html>
